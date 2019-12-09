@@ -1,0 +1,95 @@
+##   Wave Data   ##
+################################
+#	Wave Template	#
+#--Wave Name Here --
+~Centipede
+number of segments
+number of heads
+speed
+
+~Spider
+present(true/false)
+spawn rate
+speed
+
+~Flea
+present(true/false)
+mushroom trigger value
+flea speed
+
+~Scorpion
+present(true/false)
+spawn rate
+speed
+#--
+# "--" Denotes the start and end of a wave
+# "~"  Denotes a non-data line, to be skipped
+################################
+
+
+
+-- Wave 1 --
+~Centipede
+cenLen=11;
+cenSpeed=2;
+numHeads=0;
+~
+~Spider
+spider=1;
+spiderSpawn=15;
+spiderSpeed=1;
+~
+~Flea
+flea=0;
+fleaTrigger=2;
+fleaSpeed=4;
+~
+~Scorpion
+scorpion=0;
+scorpionSpawn=1;
+scorpionSpeed=4;
+-- End --
+
+-- Wave 2 --
+~Centipede
+cenLen=10;
+cenSpeed=4;
+numHeads=1;
+~
+~Spider
+spider=1;
+spiderSpawn=10;
+spiderSpeed=2;
+~
+~Flea
+flea=1;
+fleaTrigger=3;
+fleaSpeed=4;
+~
+~Scorpion
+scorpion=1;
+scorpionSpawn=30;
+scorpionSpeed=2;
+-- End --
+
+-- Wave 3 --
+~Centipede
+cenLen=10;
+cenSpeed=4;
+numHeads=2;
+~
+~Spider
+spider=1;
+spiderSpawn=10;
+spiderSpeed=2;
+~
+~Flea
+flea=1;
+fleaTrigger=8;
+fleaSpeed=4;
+~
+~Scorpion
+scorpion=1;
+scorpionSpawn=20;
+scorpionSpeed=4;
+-- End --

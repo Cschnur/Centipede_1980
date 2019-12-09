@@ -1,0 +1,10 @@
+#include "Spider_MoveFSM.h"
+
+const Spider_MoveLeftAndDown Spider_MoveFSM::StateSpider_MoveLeftAndDown;
+const Spider_MoveLeftAndUp Spider_MoveFSM::StateSpider_MoveLeftAndUp;
+const Spider_MoveRightAndDown Spider_MoveFSM::StateSpider_MoveRightAndDown;
+const Spider_MoveRightAndUp Spider_MoveFSM::StateSpider_MoveRightAndUp;
+const Spider_MoveDownRight Spider_MoveFSM::StateSpider_MoveDownRight;
+const Spider_MoveUpRight Spider_MoveFSM::StateSpider_MoveUpRight;
+const Spider_MoveDownLeft Spider_MoveFSM::StateSpider_MoveDownLeft;
+const Spider_MoveUpLeft Spider_MoveFSM::StateSpider_MoveUpLeft;
